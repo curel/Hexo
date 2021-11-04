@@ -5,7 +5,7 @@ keywords: Kiro, 官志昱
 author: Kiro
 language: zh-CN
 timezone: 'Asia/Shanghai'
-url: http://kiro.cc
+url: http://www.kiro.cc
 permalink: ':year/:month/:title/'
 permalink_defaults: null
 pretty_urls:
@@ -61,6 +61,12 @@ exclude: null
 ignore: null
 theme: icarus
 deploy:
-  type: git
+- type: git
   repo: git@kiro.cc:/var/repo/hexo.git
   branch: master
+- type: baidu_url_submitter
+baidu_url_submit:
+  count: 100                 # 提交最新的多少个链接
+  host: www.kiro.cc       # 在百度站长平台中添加的域名
+  token: ziJKhBqup2kQvrxd
+  path: baidu_urls.txt
