@@ -4,7 +4,7 @@ Hexo 本体备份。
 ## 常用命令
 
 ```bash
-hexo d // 清除缓存
+hexo clean // 清除缓存
 hexo s // 生成本地服务器
 hexo d -g // 打包上传 
 ```

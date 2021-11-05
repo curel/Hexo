@@ -100,6 +100,7 @@ head:
         name=keywords;content=Kiro,柯洛,官志昱,前端开发,独立博客,Hexo
     # URL or path to the website's RSS atom.xml
     rss:
+        /atom.xml
 # Page top navigation bar configurations
 navbar:
     # Navigation menu items
@@ -239,24 +240,21 @@ widgets:
       # Email address for the Gravatar
       gravatar:
       # URL or path for the follow button
-      follow_link: "https://github.com/curel"
+      follow_link: "https://weibo.com/u/5865649588"
       # Links to be shown on the bottom of the profile widget
-#      social_links:
-#          Github:
-#              icon: fab fa-github
-#              url: "https://github.com/ppoffice"
-#          Facebook:
-#              icon: fab fa-facebook
-#              url: "https://facebook.com"
-#          Twitter:
-#              icon: fab fa-twitter
-#              url: "https://twitter.com"
-#          Dribbble:
-#              icon: fab fa-dribbble
-#              url: "https://dribbble.com"
-#          RSS:
-#              icon: fas fa-rss
-#              url: /
+      social_links:
+          Github:
+              icon: fab fa-github
+              url: "https://github.com/curel"
+          Weibo:
+              icon: fab fa-weibo
+              url: "https://weibo.com/u/5865649588"
+          Pigeon:
+              icon: fas fa-fish
+              url: /say
+          RSS:
+              icon: fas fa-rss
+              url: /atom.xml
     # Table of contents widget configurations
     - # Where should the widget be placed, left sidebar or right sidebar
       position: left
