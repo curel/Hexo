@@ -1,11 +1,11 @@
 title: Kiro
 subtitle: 'A blog'
 description: 'Salad taste like sad.'
-keywords: Kiro, 官志昱
+keywords: Kiro,柯洛,官志昱,前端开发,独立博客,Hexo
 author: Kiro
 language: zh-CN
 timezone: 'Asia/Shanghai'
-url: http://www.kiro.cc
+url: https://www.kiro.cc
 permalink: ':year/:month/:title/'
 permalink_defaults: null
 pretty_urls:
@@ -67,7 +67,7 @@ deploy:
 - type: baidu_url_submitter              # 提交链接
 baidu_url_submit:
   count: 100                             # 链接数量
-  host: www.kiro.cc                      # 域名
+  host: https://www.kiro.cc                      # 域名
   token: ziJKhBqup2kQvrxd
   path: baidu_urls.txt
 Plugins:
