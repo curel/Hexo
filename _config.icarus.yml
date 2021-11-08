@@ -165,13 +165,14 @@ comment:
     placeholder: "对 Kiro 进行指点…"
     notify: false
     verify: false
-    avatar:
+    avatar: hide
     avatar_force: false
     meta: ["nick", "mail", "link"]
     page_size: 10
     visitor: false
     highlight: true
     record_ip: true
+    requiredFields: ['nick','mail']
 #    # Disqus shortname
 #    shortname: ""
 ## Donate plugin configurations
