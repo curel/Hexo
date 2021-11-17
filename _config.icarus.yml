@@ -110,6 +110,7 @@ navbar:
 #        Categories: /categories
 #        Tags: /tags
         About: /about
+        Hobby: /hobby
     # Links to be shown on the right of the navigation bar
     links:
 #        Download on GitHub:
@@ -167,12 +168,12 @@ comment:
     verify: false
     avatar: hide
     avatar_force: false
+    requiredFields: ['nick','mail']
     meta: ["nick", "mail", "link"]
     page_size: 10
     visitor: false
     highlight: true
     record_ip: true
-    requiredFields: ['nick','mail']
 #    # Disqus shortname
 #    shortname: ""
 ## Donate plugin configurations

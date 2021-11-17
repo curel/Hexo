@@ -12,9 +12,21 @@ tags:
 ## 常用命令
 
 ```bash
-hexo d // 清除缓存
-hexo s // 生成本地服务器
-hexo d -g // 打包上传 
+$ hexo clean // 清除缓存
+$ hexo s // 生成本地服务器
+$ hexo d -g // 打包上传 
+```
+
+修改 `package.json`：
+
+```javascript
+"build": "hexo clean & hexo d -g"
+```
+
+直接部署命令：
+
+```bash
+$ npm run build
 ```
 
 ## 新建文章

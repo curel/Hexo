@@ -5,9 +5,7 @@ categories: Pit
 tags: Mac
 ---
 
-手上的 Macbook Air 在小黄鱼挂出去了，需要抹除数据重置系统。
-
-系统退出了 Apple ID，设备里也移除了 MacBook。
+首先系统退出了 Apple ID，设备里也移除了 MacBook。
 
 扒贴看了一下，没备份，就直接把磁盘给抹除了。
 
