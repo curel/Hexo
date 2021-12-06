@@ -1,6 +1,6 @@
 ---
-title: uni-app 相关记录
-date: 2021-10-20 12:30:00
+title: uni-app 踩坑心路历程
+date: 2021-11-23 12:30:00
 categories: Web
 tags: uni-app
 ---
@@ -120,5 +120,73 @@ new Date("2018/04/27 11:11") // ok
 
 ```css
 font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma, Simsun, sans-serif;
+```
+
+## 样式相关
+
+### 覆盖默认样式
+
+使用 `/deep/` 深度选择器搭配 `!important` 在父选择器下覆盖子选择器，譬如：
+
+```css
+.list /deep/ .uni-checkbox-input {
+	width: 24rpx !important;
+	height: 24rpx !important;
+}
+```
+
+### H5 和 App 端自定义导航栏
+
+H5 部分，先在 `pages.json` 去除默认的导航栏：
+
+```json
+"style": {
+	"navigationStyle": "custom",
+	"navigationBarTextStyle": "white"
+}
+```
+
+H5 配置自定义导航栏，可以用 [uView](https://www.uviewui.com/components/navbar.html) 的，功能按钮可以直接使用 slot 来做：
+
+```html
+<template>
+	<view>
+		<u-navbar title="首页">
+            <view slot="left">
+				......
+			</view>
+            <view slot="right">
+				......
+			</view>
+		</u-navbar>
+		<view class="content">
+			<!-- 正文内容 -->
+		</view>
+	</view>
+</template>
+```
+
+接着再单独配置 App 端的导航栏，譬如：
+
+```json
+"app-plus": {
+	"titleNView": {
+		"titleText": "地图",
+		"backgroundImage": "linear-gradient(to left, rgb(28, 187, 180), rgb(150, 198, 135))",
+	}
+}
+```
+
+完整例子：
+
+```json
+"style": {
+	"navigationStyle": "custom",
+	"navigationBarTextStyle": "white",
+	"titleNView": {
+		"titleText": "地图",
+		"backgroundImage": "linear-gradient(to left, rgb(28, 187, 180), rgb(150, 198, 135))",
+	}
+}
 ```
 

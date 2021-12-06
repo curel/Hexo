@@ -1,0 +1,123 @@
+{
+  "main": {
+    "id": "e4a30f40b2e25e58",
+    "type": "split",
+    "children": [
+      {
+        "id": "4b6068567ef81c6a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "icarus.md",
+            "mode": "source"
+          }
+        },
+        "group": "770f1bb374e7564c"
+      },
+      {
+        "id": "f3ab2d1cf409f2ce",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "icarus.md",
+            "mode": "preview"
+          }
+        },
+        "group": "770f1bb374e7564c"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dccafb8a9b929432",
+    "type": "split",
+    "children": [
+      {
+        "id": "a276a489ae03fb92",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "10617f6f53a7e517",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c21f78553104b6f2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "abee6d942c4dc546",
+    "type": "split",
+    "children": [
+      {
+        "id": "88977c17d8d234aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "868074f97a8fc4ef",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "icarus.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "22712acb588449e9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "icarus.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "f3ab2d1cf409f2ce",
+  "lastOpenFiles": [
+    "icarus.md",
+    "bash-profile.md",
+    "quasar.md",
+    "echarts-liquidfill.md",
+    "typescript.md",
+    "hexo.md",
+    "uni-app.md",
+    "icarus-config.md",
+    "mac-reload.md"
+  ]
+}

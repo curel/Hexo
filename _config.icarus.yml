@@ -97,7 +97,7 @@ head:
     meta:
         # Meta tag specified in <attribute>=<value> style
         # E.g., name=theme-color;content=#123456 => <meta name="theme-color" content="#123456">
-        name=keywords;content=Kiro,柯洛,官志昱,前端开发,独立博客,Hexo
+        name=keywords;content=Kiro,kiro,柯洛,官志昱,前端开发,独立博客,Hexo
     # URL or path to the website's RSS atom.xml
     rss:
         /atom.xml
@@ -253,7 +253,7 @@ widgets:
               url: "https://weibo.com/u/5865649588"
           Pigeon:
               icon: fas fa-fish
-              url: /say
+              url: "http://becure.cn"
           RSS:
               icon: fas fa-rss
               url: /atom.xml
@@ -274,7 +274,7 @@ widgets:
       # Names and URLs of the sites
       links:
           Hexo: "https://hexo.io"
-          Pigeon: "http://kiro.cc/say"
+          Pigeon: "http://becure.cn"
     # Categories widget configurations
     - # Where should the widget be placed, left sidebar or right sidebar
       position: left
