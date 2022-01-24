@@ -60,6 +60,7 @@ include: null
 exclude: null
 ignore: null
 theme: icarus
+#theme: next
 deploy:
 - type: git
   repo: git@kiro.cc:/var/repo/hexo.git

@@ -40,16 +40,20 @@ class Footer extends Component {
                         </p>
                     </div>
                     <div class="level-end">
-                        {Object.keys(links).length ? <div class="field has-addons">
-                            {Object.keys(links).map(name => {
-                                const link = links[name];
-                                return <p class="control">
-                                    <a class={`button is-transparent ${link.icon ? 'is-large' : ''}`} target="_blank" rel="noopener" title={name} href={link.url}>
-                                        {link.icon ? <i class={link.icon}></i> : name}
-                                    </a>
-                                </p>;
-                            })}
-                        </div> : null}
+                        <div className="level-end">
+                            {/*{Object.keys(links).length ? <div class="field has-addons">*/}
+                            {/*    {Object.keys(links).map(name => {*/}
+                            {/*        const link = links[name];*/}
+                            {/*        return <p class="control">*/}
+                            {/*            <a class={`button is-transparent ${link.icon ? 'is-large' : ''}`} target="_blank" rel="noopener" title={name} href={link.url}>*/}
+                            {/*                {link.icon ? <i class={link.icon}></i> : name}*/}
+                            {/*            </a>*/}
+                            {/*        </p>;*/}
+                            {/*    })}*/}
+                            {/*</div> : null}*/}
+                            <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank"
+                               rel="noopener"><img src={"https://kiro.cc/images/upyun_logo.png"}></img></a>
+                        </div>
                     </div>
                 </div>
             </div>
