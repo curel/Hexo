@@ -1131,10 +1131,10 @@ buffer-from@^1.0.0:
   resolved "https://registry.nlark.com/buffer-from/download/buffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
   integrity sha1-KxRqb9cugLT1XSVfNe1Zo6mkG9U=
 
-bulma-stylus@0.8.0:
+bulma-stylus@^0.8.0:
   version "0.8.0"
-  resolved "https://registry.npm.taobao.org/bulma-stylus/download/bulma-stylus-0.8.0.tgz#137c182a1fdf9ac82f2e73bd3163aac454b105ae"
-  integrity sha1-E3wYKh/fmsgvLnO9MWOqxFSxBa4=
+  resolved "https://registry.yarnpkg.com/bulma-stylus/-/bulma-stylus-0.8.0.tgz#137c182a1fdf9ac82f2e73bd3163aac454b105ae"
+  integrity sha512-9Q9BMPeHFyJ5EWh/tJPCcLDYEovKzUBOyMHsKEIyxSYEKG8wqt9RVuTumaJ2AfDjyHC9OifWKOfJSweKYD5IMQ==
 
 bytes@3.0.0:
   version "3.0.0"
@@ -1700,6 +1700,13 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+hexo-baidu-url-submit@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/hexo-baidu-url-submit/-/hexo-baidu-url-submit-0.0.6.tgz#2e8df814ceed3420e56cc27fd503f6023256dc6d"
+  integrity sha512-0jDyIuw5B2Muqsjcf5Xxo1PNjxClPHP14FpB0amEAIr4wUdxk5zahImvOhkZwR9GrBhWKAPdjzmWS/xIMjzfrw==
+  dependencies:
+    xmlhttprequest "^1.8.0"
+
 hexo-cli@^4.0.0:
   version "4.3.0"
   resolved "https://registry.nlark.com/hexo-cli/download/hexo-cli-4.3.0.tgz#4bb2bf11a30fae601f2f53ac0cb833fee3187649"
@@ -1770,6 +1777,14 @@ hexo-generator-category@^1.0.0:
   integrity sha1-zSorA+sybaPvgh1uKUCEiMwTLrU=
   dependencies:
     hexo-pagination "1.0.0"
+
+hexo-generator-feed@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-generator-feed/-/hexo-generator-feed-3.0.0.tgz#4126ef5e308264c42599fb0efdaf88ed11fa599e"
+  integrity sha512-Jo35VSRSNeMitS2JmjCq3OHAXXYU4+JIODujHtubdG/NRj2++b3Tgyz9pwTmROx6Yxr2php/hC8og5AGZHh8UQ==
+  dependencies:
+    hexo-util "^2.1.0"
+    nunjucks "^3.0.0"
 
 hexo-generator-index@^2.0.0:
   version "2.0.0"
@@ -1980,10 +1995,20 @@ inferno-shared@7.4.11:
   resolved "https://registry.npmmirror.com/inferno-shared/download/inferno-shared-7.4.11.tgz#6e06e0668c4dad5f8b1fd4c688e1072faa6f1e87"
   integrity sha1-bgbgZoxNrV+LH9TGiOEHL6pvHoc=
 
+inferno-shared@8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/inferno-shared/-/inferno-shared-8.0.0.tgz#e0ce6ab8b5a1e21653a04573fb125ff56544075f"
+  integrity sha512-IyS3IGr+O8nLfaOH+VlM/LF9l1V7oBStxelf78NqOz8aqnSJW+BVLxrcGsdTKSUwiv0RzpDf3s/swvS76LdTXQ==
+
 inferno-vnode-flags@7.4.11:
   version "7.4.11"
   resolved "https://registry.npmmirror.com/inferno-vnode-flags/download/inferno-vnode-flags-7.4.11.tgz#642a835a8dde514f244296b27c176a2b8704fbac"
   integrity sha1-ZCqDWo3eUU8kQpayfBdqK4cE+6w=
+
+inferno-vnode-flags@8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-8.0.0.tgz#be52e4752e2e7443b4e74787f970fdc3ec9514ef"
+  integrity sha512-dxC6mKHaMMLaaA9Ng6Fhw/xdEyyYXCmVR7+/U/1rO8181+7XMh/Upk0jHn9yssZL4T5ATxZrXZIzvJm79T4LRg==
 
 inferno@7.4.11, inferno@^7.3.3:
   version "7.4.11"
@@ -1992,6 +2017,15 @@ inferno@7.4.11, inferno@^7.3.3:
   dependencies:
     inferno-shared "7.4.11"
     inferno-vnode-flags "7.4.11"
+    opencollective-postinstall "^2.0.3"
+
+inferno@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/inferno/-/inferno-8.0.0.tgz#06bef21d5f81d794bc0356f5676326654619f68a"
+  integrity sha512-VrO86gl22DtuATQlr6MUdZDWyo5L0JXngk86wOjcGvXhf2oNxonZa2dIQUd6xsVlVyWR4WLU8D4fGx8YWzDJiw==
+  dependencies:
+    inferno-shared "8.0.0"
+    inferno-vnode-flags "8.0.0"
     opencollective-postinstall "^2.0.3"
 
 inflight@^1.0.4:
@@ -2347,7 +2381,7 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   resolved "https://registry.npm.taobao.org/normalize-path/download/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha1-Dc1p/yOhybEf0JeDFmRKA4ghamU=
 
-nunjucks@^3.2.1:
+nunjucks@^3.0.0, nunjucks@^3.2.1:
   version "3.2.3"
   resolved "https://registry.nlark.com/nunjucks/download/nunjucks-3.2.3.tgz#1b33615247290e94e28263b5d855ece765648a31"
   integrity sha1-GzNhUkcpDpTigmO12FXs52VkijE=
@@ -3044,6 +3078,11 @@ xmlchars@^2.2.0:
   version "2.2.0"
   resolved "https://registry.npm.taobao.org/xmlchars/download/xmlchars-2.2.0.tgz#060fe1bcb7f9c76fe2a17db86a9bc3ab894210cb"
   integrity sha1-Bg/hvLf5x2/ioX24apvDq4lCEMs=
+
+xmlhttprequest@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/xmlhttprequest/-/xmlhttprequest-1.8.0.tgz#67fe075c5c24fef39f9d65f5f7b7fe75171968fc"
+  integrity sha512-58Im/U0mlVBLM38NdZjHyhuMtCqa61469k2YP/AaPbvCoV9aQGUpbJBj1QRm2ytRiVQBD/fsw7L2bJGDVQswBA==
 
 yallist@^4.0.0:
   version "4.0.0"
